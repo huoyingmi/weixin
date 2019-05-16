@@ -1,0 +1,9 @@
+<import src="../star-template/star-template.wxml" />
+
+<template name="movieItemTemplate">
+  <view class='movie-item-wrap'>
+    <image class='cover-img' src='/images/movie/v1.png'></image>
+    <text class='title'>大黄蜂</text>
+    <template is="starTemplate"  />
+  </view>
+</template>

@@ -1,0 +1,78 @@
+.focus{
+  position: relative;
+  width: 100%;
+  height: 450rpx;
+}
+.focus-bg{
+  width: 100%;
+  height: 100%;
+}
+.focus-music{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.article-detail .head{
+  width: 100%;
+  height: 80rpx;
+  margin: 20px 0;
+}
+.head .avatar{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.head .author,
+.head .text,
+.head .time{
+  color: #333;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.title{
+  width: 100%;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.operation{
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+.operation-collection,
+.operation-share{
+  position: absolute;
+  top:15px; 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; 
+  z-index: 88;
+}
+.operation-collection{
+  right: 60px;
+}
+.operation-share{
+  right: 15px;
+}
+.operation-line{
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+.footer-content{
+  width: 100%;
+}
+.content{
+  font-size: 14px;
+  font-style: italic;
+  color: indigo;
+}
